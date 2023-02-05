@@ -1,6 +1,7 @@
 :root {
-    --color-alfa: rgb(220, 220, 220);
-    --color-beta: rgb(0, 200, 250);
+    --color-alfa:  rgb(173, 231, 146);
+    --color-beta: rgb(78, 150, 127);
+    --color-gamma: rgb(52, 77, 103);
 }
 
 .nav {
@@ -27,6 +28,10 @@
     height: 100%;
     text-decoration: none;
     width: 100%;
+}
+
+.nav__link:hover {
+    color: var(--color-gamma);
 }
 
 .nav__item:hover > .nav__dropdown {
